@@ -1,0 +1,19 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+pizza_form1:
+    path: /pizza
+    controller: App\Controller\PizzaController:pizzaDelivery
+    
+pizzadelivery2:
+    path: /pizza2
+    controller: App\Controller\PizzaController:pizzaDelivery2
+    
+pizzadelivery3:
+    path: /pizza3
+    controller: App\Controller\PizzaController:pizzaDelivery3
+    
+article:
+    path: /article
+    controller: App\Controller\ArticleController:publish
